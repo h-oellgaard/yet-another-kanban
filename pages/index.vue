@@ -3,10 +3,10 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-          Welcome to Yet Another Kanban
+          Welcome to Yet Another Kanban. 
         </h1>
         <h2 class="subtitle">
-          Manage your tasks efficiently using our Kanban board.
+          Manage your personal, work and community commitments or any other task efficiently using only one Kanban board.
         </h2>
         <nuxt-link to="/board" class="button is-light is-large">
           Get Started

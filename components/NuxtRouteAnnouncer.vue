@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Route has changed</p>
+   
   </div>
 </template>
 

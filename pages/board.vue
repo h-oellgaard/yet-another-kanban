@@ -1,25 +1,29 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1 class="title">Kanban Board</h1>
-      <p class="content">
-        Manage your tasks efficiently using our Kanban board.
-      </p>
-      <!-- Add your board content here -->
+      <Board />
     </div>
   </section>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import Board from '~/components/board.vue';
 
 export default defineComponent({
-  name: 'BoardPage'
+  name: 'BoardPage',
+  components: {
+    Board
+  }
 });
 </script>
 
 <style scoped>
 .title {
   margin-top: 20px;
+}
+
+.section {
+  padding: 2rem 1.5rem;
 }
 </style>

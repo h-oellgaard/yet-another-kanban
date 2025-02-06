@@ -2,7 +2,9 @@
 <template>
   <div>
     <Header />
-    <Nuxt />
+    <NuxtLayout>
+      <Nuxt />
+    </NuxtLayout>
   </div>
 </template>
 
