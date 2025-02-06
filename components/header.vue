@@ -4,11 +4,13 @@
       <nuxt-link class="navbar-item" to="/">
         Home
       </nuxt-link>
-      <nuxt-link class="navbar-item" to="/about">
-        About
-      </nuxt-link>
       <nuxt-link class="navbar-item" to="/board">
         Board
+      </nuxt-link>
+    </div>
+    <div class="navbar-end">
+      <nuxt-link class="navbar-item is-small" to="/about">
+        About
       </nuxt-link>
     </div>
   </nav>
@@ -32,5 +34,8 @@ export default defineComponent({
 }
 .navbar-item:hover {
   background-color: #444;
+}
+.is-small {
+  font-size: 0.875rem; /* Bulma's small font size */
 }
 </style>
