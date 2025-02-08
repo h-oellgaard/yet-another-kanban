@@ -33,10 +33,11 @@ export default defineComponent({
   data() {
     return {
       swimlanes: [
-        { id: 1, title: 'Swimlane 1', columnIds: [1, 2, 3], collapsed: false },
-        { id: 2, title: 'Swimlane 2', columnIds: [1, 2, 3], collapsed: false }
+        { id: 1, title: 'Swimlane 1', columnIds: [0, 1, 2, 3], collapsed: false },
+        { id: 2, title: 'Swimlane 2', columnIds: [0, 1, 2, 3], collapsed: false }
       ],
       columns: [
+        { id: 0, title: 'Backlog', shared: false },
         { id: 1, title: 'To Do', shared: false },
         { id: 2, title: 'In Progress', shared: true },
         { id: 3, title: 'Done', shared: false }

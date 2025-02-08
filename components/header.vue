@@ -7,6 +7,9 @@
       <nuxt-link class="navbar-item" to="/board">
         Board
       </nuxt-link>
+      <nuxt-link class="navbar-item" to="/eisenhower">
+        Eisenhower Matrix
+      </nuxt-link>
     </div>
     <div class="navbar-end">
       <nuxt-link class="navbar-item is-small" to="/about">
